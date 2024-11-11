@@ -3,7 +3,7 @@ version: '3.6'
 services:
 
   telegraf:
-    image: telegraf
+    image: telegraf:1.32.1
     container_name: telegraf
     
     volumes:
@@ -16,7 +16,7 @@ services:
     - '8125:8125'
 
   influxdb:
-    image: influxdb:latest
+    image: influxdb:2.7.10
     container_name: influxdb
     
     environment:
