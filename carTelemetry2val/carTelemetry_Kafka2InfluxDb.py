@@ -1,12 +1,18 @@
 import os, sys
 import configparser
 
+if sys.version_info >= (3,12,0):
+    print("test");
+    import six
+    sys.modules['kafka.vendor.six.moves'] = six.moves
+
 scriptDir= os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.join(scriptDir, "../../"))
 from kafka import KafkaConsumer
 from json import loads
 import influxdb_client 
 from influxdb_client.client.write_api import SYNCHRONOUS
+
 
 TOPIC_NAME = 'tester1234'
 
