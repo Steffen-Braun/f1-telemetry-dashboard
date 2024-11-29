@@ -6,3 +6,4 @@ stopDockerContainer.sh
 
 # meta data files
 *.swp
+*.swo
