@@ -26,6 +26,7 @@ You will also need a :
     Python-Dependecies:
     
     ```
+    >  python3-cffi) $sudo apt install python3-cffi
     >  Telemetry-F1-2021: 0.3.0) $pip install Telemetry-F1-2021
     >  kuksa-client) $pip install kuksa-client
     >  Paho-MQtt) $pip install paho-mqtt
