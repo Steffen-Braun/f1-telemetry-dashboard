@@ -119,7 +119,7 @@ if __name__ == "__main__":
                 fuelLevel[0]=getKuksaDataByString(fuelLevel[1],fuelLevel[0])
                 rpm[0]=getKuksaDataByString(rpm[1],rpm[0])
                 lastLapTime[0]=getKuksaDataByString(lastLapTime[1],lastLapTime[0])
-
+                
                 data=[
                     speed,
                     frontLeftWingDamage,
