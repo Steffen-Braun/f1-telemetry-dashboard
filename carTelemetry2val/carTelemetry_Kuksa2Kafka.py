@@ -1,8 +1,4 @@
 import os, sys
-if sys.version_info >= (3,12,0):
-    print("test");
-    import six
-    sys.modules['kafka.vendor.six.moves'] = six.moves
 from kafka import KafkaProducer
 from json import dumps
 from kuksa_client.grpc import VSSClient
