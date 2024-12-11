@@ -1,9 +1,1 @@
-# helper programms
-InfluxDBToken.txt
-startDashboardCommunication.sh
-startDocker.sh
-stopDockerContainer.sh
 
-# meta data files
-*.swp
-*.swo
