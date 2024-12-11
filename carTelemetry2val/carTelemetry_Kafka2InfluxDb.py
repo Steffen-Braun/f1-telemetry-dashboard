@@ -8,7 +8,6 @@ from json import loads
 import influxdb_client 
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-
 TOPIC_NAME = 'tester1234'
 
 consumer = KafkaConsumer(TOPIC_NAME, value_deserializer=lambda m: loads(m.decode('ascii')))
