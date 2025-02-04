@@ -1,7 +1,7 @@
-import os, sys
 from kafka import KafkaProducer
 from json import dumps
 from kuksa_client.grpc import VSSClient
+import os, sys
 import configparser
 from datetime import datetime
 
